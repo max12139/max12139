@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>jQuery单页/全屏滚动插件onepage-scroll演示</title>
+<link rel="stylesheet" href="css/onepage-scroll.css" />
+<style>
+.page1 { background-color: #1bbc9b;}
+.page2 { background-color: #FF7F50;}
+.page3 { background-color: #4BBFC3;}
+.page4 { background-color: #f90;}
+p.title {
+	position: relative;
+	top: 35%;
+	font: 700 40px "Microsoft Yahei";
+	color: #fff;
+	text-align: right;
+	font-family: "楷体";
+}
+.main .page.page2 table tr td {
+	font-size: 18px;
+}
+.main .page.page3 table tr td {
+	font-size: 18px;
+	font-family: "楷体";
+}
+.main .page.page4 table tr td {
+	font-size: 18px;
+	font-family: "楷体";
+}
+.main .page.page2 table tr td p {
+	font-family: "楷体";
+	text-align: left;
+}
+body {
+	background-image: url(images/bj.jpg);
+}
+</style>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.onepage-scroll.min.js"></script>
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+<script>
+$(function(){
+	$('.main').onepage_scroll({
+		sectionContainer: '.page'
+	});
+});
+</script>
+</head>
+
+<body>
+<div class="main">
+	<div class="page page1">
+		<p class="title"> 
+		  
+		  村上春树       挪威的森林
+<p/>
+      <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="521" height="400">
+        <param name="movie" value="flash/flash3197.swf">
+        <param name="quality" value="high">
+        <param name="wmode" value="opaque">
+        <param name="swfversion" value="9.0.45.0">
+        <!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
+        <param name="expressinstall" value="Scripts/expressInstall.swf">
+        <!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
+        <!--[if !IE]>-->
+        <object type="application/x-shockwave-flash" data="flash/flash3197.swf" width="521" height="400">
+          <!--<![endif]-->
+          <param name="quality" value="high">
+          <param name="wmode" value="opaque">
+          <param name="swfversion" value="9.0.45.0">
+          <param name="expressinstall" value="Scripts/expressInstall.swf">
+          <!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
+          <div>
+            <h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+            <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33" /></a></p>
+          </div>
+          <!--[if !IE]>-->
+        </object>
+        <!--<![endif]-->
+      </object>
+      <object id="FlashID2" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="550" height="400">
+        <param name="movie" value="flash/flash4586.swf">
+        <param name="quality" value="high">
+        <param name="wmode" value="opaque">
+        <param name="swfversion" value="6.0.65.0">
+        <!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
+        <param name="expressinstall" value="Scripts/expressInstall.swf">
+        <!-- 下一个对象标签用于非 IE 浏览器。所以使用 IECC 将其从 IE 隐藏。 -->
+        <!--[if !IE]>-->
+        <object type="application/x-shockwave-flash" data="flash/flash4586.swf" width="550" height="400">
+          <!--<![endif]-->
+          <param name="quality" value="high">
+          <param name="wmode" value="opaque">
+          <param name="swfversion" value="6.0.65.0">
+          <param name="expressinstall" value="Scripts/expressInstall.swf">
+          <!-- 浏览器将以下替代内容显示给使用 Flash Player 6.0 和更低版本的用户。 -->
+          <div>
+            <h4>此页面上的内容需要较新版本的 Adobe Flash Player。</h4>
+            <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获取 Adobe Flash Player" width="112" height="33" /></a></p>
+          </div>
+          <!--[if !IE]>-->
+        </object>
+        <!--<![endif]-->
+      </object>
+  </div>
+	<div class="page page2">
+<p class="title">
+ 简介</p>
+      <table width="1000" border="0">
+  <tr>
+    <td><p>《挪威的森林》是日本作家村上春树于1987年所著的一部长篇爱情小说。
+      故事讲述主角纠缠在情绪不稳定且患有精神疾病的直子和开朗活泼的小林绿子之间，展开了自我成长的旅程。渡边的第一个恋人直子原是他高中要好同学木月的女友，但后来木月自杀了，直子一人生活着。一年后，渡边同直子巧遇开始了交往，此时的直子已变得娴静腼腆，眸子里不时掠过一丝阴翳。直子20岁生日的晚上两人发生了性关系，不料第二天直子便不知去向。几个月后直子来信说她住进一家远在深山里的精神疗养院。渡边前去探望时发现直子开始带有成熟女性的丰腴与娇美，还认识了和直子同一宿舍的玲子，在离开前渡边表示永远等待直子。[2] 
+      在一家小餐馆渡边结识了绿子，因为绿子问他借了《戏剧史II》的课堂笔记，以后就渐渐熟络。当绿子的父亲去世后，渡边开始与低年级的绿子交往。绿子同内向的直子截然相反，显得十分清纯活泼。[2] 
+      这期间，渡边内心十分苦闷彷徨。一方面念念不忘直子缠绵的病情与柔情，一方面又难以抗拒绿子大胆的表白和迷人的活力。不久传来直子自杀的噩耗，渡边失魂落魄地四处徒步旅行。最后，在直子同房病友玲子的鼓励下，开始摸索此后的人生。</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p><img src="images/3.jpg" width="295" height="221" align="right"></p></td>
+  </tr>
+</table>
+</div>
+	<div class="page page3">
+		<p class="title">人物介绍</p>
+      <table width="1000" border="0">
+  <tr>
+    <td>渡边彻
+故事的男主角。在神户高中毕业后，到东京的私立大学升学，于文学部专攻戏剧。喜欢喝威士忌、白兰地、爱看书、和女人厮混。不喜欢与人有深入接触，除了直子。[3] 
+小林绿子
+和渡边彻同上《戏剧史II》课，大学一年级女生。自家在东京内的大冢经营小林书店。乐观、开朗型少女，十分情绪化、喜欢跟人赌气和爱撒娇。母亲因脑肿瘤去世，父亲也因此病逝世。会做关西风味的菜式，有抽烟的习惯。[3] 
+直子
+和木月自小相识的女性朋友，后来成为木月的情人。高中毕业后到东京的大学升学，其后在火车上遇到渡边彻。遇到渡边彻的半年后，进了京都一间名为"阿美寮"的疗养院，是集体治疗精神病患者的设施。"1970年夏天自杀。[3] 
+石田玲子
+是直子在阿美寮的女室友，身上有着许多皱纹。在渡边彻探望直子时，当观察者。自小立志当职业钢琴家，但因精神病而被迫放弃，后来和跟她学钢琴的男生结婚，但后来被一位跟她学钢琴的十三岁女同性恋者令她被人误会是同性恋者引起邻居非议，最后和丈夫离婚。喜爱抽烟、会弹吉他。</td>
+  </tr>
+</table>
+    <img src="images/1.jpg" width="251" height="220" align="middle"></div>
+	<div class="page page4">
+		<p class="title">作品鉴赏</p>
+      <table width="982" border="0">
+  <tr>
+    <td width="976"><p>自我救赎
+      关于小说《挪威的森林》的主题，作者村上春树曾经坦言是"恋爱""现实主义"。但这种现实主义的恋爱只是小说的表象，笔者认为小说的真正主题是自我救赎。
+      自我救赎的前提是自我的迷失，这种迷失带有青春期的普遍性，这也是小说《挪威的森林》持续人气的原因之一。就如有16岁的幻想少男少女的存在就有琼瑶热一样，有青春迷悯的少男少女存在，就有村上春树《挪威的森林》的读者。小说中的主人公们，大多是青春期迷失了自我的典型。无法确定自己在周围世界中的位置的19岁左右的渡边迷失了；对什么都不明白，甚至表达都有困难的20岁直子迷失了；永远17岁的木月迷失了；头脑的螺丝不知飞到哪里去了"的玲子迷失了；永泽、初美也都在青者期迷失了自己。恐伯只有绿子不曾迷失自己，对于绿子来说，她有的只是寂寞，是将那一颗颗紧闭的心灵之门敲很"咚咚"的冲动。对作者村上春树来说，绿子是一片绿洲，是青春的沙漠上拯救干涸的希望。她有的只是痛苦，是护理病人和夜书屋中不断劳作的痛苦。一如基督耶稣，是作者悬设的拯救者。拯救者是蒙着痛苦来摆脱迷茫的陷阱的。当然，绿子也并不完全等同于耶稣，她的身上还有那种来源于本我的快乐。
+      但是对这种青春期迷失的救赎，作者却给出了相同且简单的方式，即恋爱、友情、逃避和幻想，这种简单而相同的方式，在一些人身上收获了成功，在另一些人身上却收获了失败。
+      </p>
+      <p><img src="images/0.jpg" width="271" height="174" align="left"></p></td>
+  </tr>
+</table>
+	</div>
+</div>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+swfobject.registerObject("FlashID2");
+</script>
+</body>
+</html>
